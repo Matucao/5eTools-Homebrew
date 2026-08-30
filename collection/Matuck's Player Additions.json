@@ -18,6 +18,148 @@
 		"dateLastModified": 1779132669
 	},
 	"monster": [],
+	"item": [
+		{
+			"name": "Abyssal Cannon",
+			"source": "MatucksPlayerAdditions",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"reqAttuneTags": [
+				"unique"
+			],
+			"weaponCategory": "Martial",
+			"weaponType": "Melee",
+			"dmg1": "1d12",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"bonusWeapon": "+1",
+			"entries": [
+				"A heavy cannon with a magical tentacle stitched to its interior. The tentacle can grasp forward in order to grapple and pull creatures.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Alternate Attack",
+					"entries": [
+						"This weapon has an alternate attack. When you attack with this weapon, you can substitute an attack with the alternate attack. Alternate attacks can't trigger Mastery."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alternate Attack: Grasp of the Deep",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft. {@h}Hit: {@damage 1d8} Bludgeoning damage. If the target is Medium or smaller, it is pulled until it is within 5 feet of you and is Grappled by the weapon's tentacle. If the target is Large or larger, you can pull yourself toward the target until you are within 5 feet of it.",
+						"Using an Alternate Attack or making an attack with this weapon against a creature that has not been Grappled by it releases the creature currently Grappled by the weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alternate Attack (1/Day): Coral Strike",
+					"entries": [
+						"A massive cluster of coral forms inside the cannon and is propelled outward by the tentacle. The cluster flies toward a point within 60 feet of you and shatters on impact. Each creature within a 10-foot-radius Sphere centered on that point must make a DC 15 Dexterity saving throw, taking {@damage 5d6} Piercing damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mastery: Push",
+					"entries": [
+						"If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+					]
+				}
+			]
+		},
+		{
+			"name": "Chaos Magnum",
+			"source": "MatucksPlayerAdditions",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": "by a Wizard or Artificer",
+			"entries": [
+				"A revolver imbued with a magical, multicolored Wild Magic Crystal.",
+				"You can use this item as your spellcasting focus.",
+				{
+					"type": "entries",
+					"name": "Arcane Imbued",
+					"entries": [
+						"While holding this gun, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of spells you cast with it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Shot",
+					"entries": [
+						"As a Magic action, you can use the magical powers of the gun to fire a chaos bullet and cause a random effect. Roll a {@dice d10} to determine the effect."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Wild Shot Effects",
+					"colLabels": [
+						"d10",
+						"Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The barrel explodes. You take {@damage 1d6} Fire damage."
+						],
+						[
+							"2",
+							"Nothing happens."
+						],
+						[
+							"3",
+							"You cast {@spell Starry Wisp}."
+						],
+						[
+							"4",
+							"You cast {@spell Sorcerous Burst}."
+						],
+						[
+							"5",
+							"You cast {@spell Fire Bolt}."
+						],
+						[
+							"6",
+							"You cast {@spell Ray of Frost}."
+						],
+						[
+							"7",
+							"You cast {@spell Eldritch Blast}."
+						],
+						[
+							"8",
+							"You cast {@spell Ray of Sickness}."
+						],
+						[
+							"9",
+							"You cast {@spell Magic Missile}."
+						],
+						[
+							"10",
+							"You cast {@spell Chaos Bolt}."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						"This item uses the bearer's Intelligence as its spellcasting ability, and it always casts a spell or cantrip at its lowest level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Chaos Bullets",
+					"entries": [
+						"At levels 5, 10, and 15, you gain the ability to fire one additional chaos bullet as part of the same action. To fire an additional chaos bullet, roll the {@dice d10} again for each bullet."
+					]
+				}
+			]
+		}
+	],
 	"spell": [
 		{
 			"name": "Banishment",
@@ -301,5 +443,6 @@
 				"Additionally, while your Rage is active, you no longer need to expend uses of Rage to change between animal forms."
 			]
 		}
-	]
+	],
+	"legendaryGroup": []
 }
