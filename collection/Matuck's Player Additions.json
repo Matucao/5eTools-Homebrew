@@ -112,35 +112,35 @@
 						],
 						[
 							"3",
-							"You cast {@spell Starry Wisp}."
+							"You cast {@spell Starry Wisp|XPHB}."
 						],
 						[
 							"4",
-							"You cast {@spell Sorcerous Burst}."
+							"You cast {@spell Sorcerous Burst|XPHB}."
 						],
 						[
 							"5",
-							"You cast {@spell Fire Bolt}."
+							"You cast {@spell Fire Bolt|XPHB}."
 						],
 						[
 							"6",
-							"You cast {@spell Ray of Frost}."
+							"You cast {@spell Ray of Frost|XPHB}."
 						],
 						[
 							"7",
-							"You cast {@spell Eldritch Blast}."
+							"You cast {@spell Eldritch Blast|XPHB}."
 						],
 						[
 							"8",
-							"You cast {@spell Ray of Sickness}."
+							"You cast {@spell Ray of Sickness|XPHB}."
 						],
 						[
 							"9",
-							"You cast {@spell Magic Missile}."
+							"You cast {@spell Magic Missile|XPHB}."
 						],
 						[
 							"10",
-							"You cast {@spell Chaos Bolt}."
+							"You cast {@spell Chaos Bolt|XGE}."
 						]
 					]
 				},
